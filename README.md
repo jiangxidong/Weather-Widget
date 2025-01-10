@@ -89,24 +89,3 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- Your Name - Initial work - [Your GitHub Profile](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- [QWeather](https://www.qweather.com/) for providing the weather API
-- [Font Awesome](https://fontawesome.com/) for the beautiful icons
-- All our contributors and users
-
-## 📞 Support
-
-If you have any questions or need help, please:
-- Open an issue in this repository
-- Contact us at [your-email@example.com]
-- Visit our [GitHub Discussions](https://github.com/yourusername/weather-widget/discussions) 
