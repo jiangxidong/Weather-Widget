@@ -2,8 +2,6 @@
 
 A beautiful and intuitive weather widget that displays real-time weather information with a dynamic UI that adapts to temperature changes. Built with modern web technologies and featuring a sleek glass-morphism design.
 
-![Weather Widget Screenshot](promo/screenshots/promo-main.png)
-
 ## ✨ Features
 
 - **Real-time Weather Updates**: Get current weather conditions instantly
