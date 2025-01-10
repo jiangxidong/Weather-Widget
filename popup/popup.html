@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container glass-effect">
+        <div class="search-box glass-effect">
+            <input type="text" id="citySearch" placeholder="Search city..." class="glass-input">
+            <button id="searchBtn" class="glass-button">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="locationBtn" class="glass-button">
+                <i class="fas fa-location-dot"></i>
+            </button>
+        </div>
+        
+        <div class="weather-info">
+            <div id="loading" class="hidden loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i>
+                <span>Loading...</span>
+            </div>
+            
+            <div id="weather" class="hidden">
+                <h2 id="location">City Name</h2>
+                <div class="weather-main">
+                    <i id="weather-icon" class="fas fa-question weather-icon"></i>
+                    <div class="temperature">
+                        <span id="temp">--</span>°C
+                    </div>
+                </div>
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-droplet"></i>
+                        <span>Humidity: <span id="humidity">--%</span></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <span>Wind: <span id="wind">-- km/h</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 

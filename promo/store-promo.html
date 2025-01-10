@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Widget - Chrome Extension</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .promo-text {
+            flex: 1;
+            padding-right: 60px;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 24px;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        .widget-container {
+            position: relative;
+            width: 400px;
+            perspective: 1000px;
+        }
+        .widget-showcase {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            transform: rotateY(-10deg);
+            transition: transform 0.3s ease;
+        }
+        .widget-showcase:hover {
+            transform: rotateY(0);
+        }
+        .features {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 15px 25px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .feature i {
+            color: #6e8efb;
+        }
+        .mockup-container {
+            position: relative;
+            width: 1280px;
+            height: 800px;
+            margin: 0 auto;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .widget-frame {
+            width: 350px;
+            height: 500px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 推广图片版本 -->
+    <div class="promo-text">
+        <h1>Weather Widget</h1>
+        <p>Beautiful weather updates with dynamic UI that adapts to temperature</p>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-location-dot"></i>
+                Real-time Location
+            </div>
+            <div class="feature">
+                <i class="fas fa-palette"></i>
+                Dynamic Colors
+            </div>
+            <div class="feature">
+                <i class="fas fa-globe"></i>
+                Global Coverage
+            </div>
+            <div class="feature">
+                <i class="fas fa-wind"></i>
+                Detailed Weather Info
+            </div>
+        </div>
+    </div>
+    <div class="widget-container">
+        <div class="widget-showcase">
+            <!-- 这里会放实际的插件截图 -->
+        </div>
+    </div>
+
+    <!-- 功能展示版本 -->
+    <div class="mockup-container" style="display: none;">
+        <div class="widget-frame">
+            <!-- 这里会放实际的插件界面 -->
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- 太阳 -->
+    <circle cx="80" cy="48" r="24" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+    <g stroke="#FFA500" stroke-width="2">
+        <line x1="80" y1="12" x2="80" y2="20" />
+        <line x1="80" y1="76" x2="80" y2="84" />
+        <line x1="44" y1="48" x2="52" y2="48" />
+        <line x1="108" y1="48" x2="116" y2="48" />
+        <line x1="55" y1="23" x2="61" y2="29" />
+        <line x1="99" y1="67" x2="105" y2="73" />
+        <line x1="55" y1="73" x2="61" y2="67" />
+        <line x1="99" y1="29" x2="105" y2="23" />
+    </g>
+    <!-- 云 -->
+    <path d="M28 88 C18 88 10 80 10 70 C10 60 18 52 28 52 C30 40 40 32 52 32 C66 32 78 44 78 58 C88 58 96 66 96 76 C96 86 88 94 78 94 L28 94 C18 94 10 86 10 76" 
+          fill="#FFFFFF" 
+          stroke="#B8B8B8" 
+          stroke-width="2"/>
+</svg> 
