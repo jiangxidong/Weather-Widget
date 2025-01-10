@@ -54,10 +54,5 @@ Our extension does not knowingly collect information from children under 13.
 ## Changes to This Policy
 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Chrome Web Store.
 
-## Contact Us
-If you have any questions about this Privacy Policy, please contact us at:
-- Email: [Your Email]
-- GitHub: [Your GitHub Profile]
-
 ## Consent
 By using our extension, you consent to our Privacy Policy and agree to its terms. 
